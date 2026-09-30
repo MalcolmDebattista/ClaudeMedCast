@@ -174,7 +174,7 @@ Use this structure. Scale depth to length and stakes: a 400-word personal statem
 
 Omit sections that have nothing in them rather than padding them.
 
-**Keep it proportionate — a review nobody finishes reading teaches nothing.** Rough budget for the report (excluding any corrected copy or revised draft): about **1–2× the length of the text for short pieces** (under ~1,000 words), tapering to a small fraction for long ones — a 10,000-word thesis chapter needs a thorough review, not a 10,000-word one. To stay within budget:
+**Keep it proportionate — a review nobody finishes reading teaches nothing.** Rough budget for the report (excluding any corrected copy or revised draft): about **1–2× the length of the text for short pieces** (under ~1,000 words), with a floor of around 1,200 words so a very short piece still gets a full diagnosis, tapering to a small fraction for long ones — a 10,000-word thesis chapter needs a thorough review, not a 10,000-word one. To stay within budget:
 - **Say each thing once.** A point made in the scorecard shouldn't be re-explained in full under Key issues and again in line corrections. The scorecard gets a one-line justification; Key issues get the explanation; line corrections get the fix and a few words of why; Patterns handle repeats.
 - **Line corrections are for the errors that matter.** For a text riddled with small errors, list the representative ones and let Patterns plus the corrected copy handle the rest.
 - **Use the reverse outline where structure is actually the problem**; otherwise one line on structure is enough.

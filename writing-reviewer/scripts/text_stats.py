@@ -64,6 +64,7 @@ PASSIVE_RE = re.compile(
     re.I,
 )
 CITE_AUTHOR_YEAR = re.compile(r"\([A-Z][A-Za-z'\-]+(?: et al\.?| (?:and|&) [A-Z][A-Za-z'\-]+)?,? \d{4}[a-z]?(?:[,;] ?(?:p+\. ?)?\d+(?:[-–]\d+)?)?\)")
+CITE_NARRATIVE = re.compile(r"\b[A-Z][A-Za-z'\-]+(?: et al\.?| (?:and|&) [A-Z][A-Za-z'\-]+)? \(\d{4}[a-z]?(?:[,:] ?(?:p+\. ?)?\d+(?:[-–]\d+)?)?\)")
 CITE_NUMERIC = re.compile(r"\[\d+(?:[,–-]\s?\d+)*\]")
 
 
@@ -205,7 +206,7 @@ def analyse(text, limit=None):
         "generic_ai_style_phrases": count_phrases(AI_TELLS),
         "commonly_confused_words_present": count_phrases(CONFUSABLES),
         "doubled_words": doubled,
-        "citations": {"author_year": len(CITE_AUTHOR_YEAR.findall(text)), "numeric": len(CITE_NUMERIC.findall(text))},
+        "citations": {"author_year": len(CITE_AUTHOR_YEAR.findall(text)) + len(CITE_NARRATIVE.findall(text)), "numeric": len(CITE_NUMERIC.findall(text))},
         "first_person_i_we": sum(1 for w in lower if w in ("i", "we", "my", "our", "me", "us")),
         "contractions": len(re.findall(r"\b\w+'(?:t|s|re|ve|ll|d|m)\b", text, re.I)),
         "exclamation_marks": text.count("!"),
