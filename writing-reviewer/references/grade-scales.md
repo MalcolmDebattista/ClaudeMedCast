@@ -2,7 +2,9 @@
 
 **Convert by band, not by number.** A UK 72% is an excellent First; a US 72% is a C-. Always map the *quality band* (see `rubrics.md` §1) into the user's system. If the user's institution publishes its own scale, use that.
 
-If you don't know the user's system, infer it from cues (spelling, "module", "semester", "coursework", named institution, "GPA") and give the mark in that system plus one familiar alternative. If there are no cues, give UK % and US letter.
+If you don't know the user's system, infer it from cues (spelling, "module", "semester", "coursework", named institution, "GPA"). Once the system is known or confidently inferred, report **only in that system**, since a conversion into another system is noise for the reader. Give UK % and US letter together only when there are no cues at all.
+
+Use the band names exactly as the system does. UK undergraduate 40–49 is a **Third (pass)**; say "a bare pass" at 40–42 if that helps the writer understand. In UK master's schemes the pass mark is usually 50, so 40–49 is a **Fail** (some schemes allow compensation or condonement at 40–49; note that only if relevant).
 
 ## Master conversion table (approximate)
 

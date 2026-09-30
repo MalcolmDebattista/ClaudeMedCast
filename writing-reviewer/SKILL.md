@@ -24,7 +24,7 @@ The same text deserves a different mark as a first-year essay than as a PhD chap
 | **Discipline** | Conventions of evidence, structure and style differ hugely (history vs. psychology vs. law) | Infer |
 | **Assignment brief / question** | "Answers the question" is often the heaviest-weighted criterion | Judge against the question the text sets itself |
 | **Rubric / marking scheme** | If supplied, it overrides the defaults entirely | Use `references/rubrics.md` |
-| **Grading scale** (UK %, US letter, IB 1–7, …) | Numbers mean different things in different systems | Infer from spelling and cues, else give UK % and US letter; see `references/grade-scales.md` |
+| **Grading scale** (UK %, US letter, IB 1–7, …) | Numbers mean different things in different systems | Infer from spelling and cues. If the system is known, report only in that system. Give UK % and US letter only when you truly can't tell. See `references/grade-scales.md` |
 | **Word limit, citation style, deadline stage** (early draft vs. final) | Affects what's worth flagging | Note if unknown |
 | **What they want** (full review, just a grade, just proofreading, "be brutal") | Changes the output | Default to the full review |
 
@@ -51,6 +51,8 @@ Then evaluate in order of importance. **Higher-order concerns first**, because a
 7. **Style and clarity** — Precision, concision, appropriate register, sentence variety, jargon used correctly, no padding.
 8. **Mechanics** — Grammar, spelling, punctuation, agreement, tense consistency, word choice.
 9. **Referencing and presentation** — Citation style applied consistently, every in-text citation in the reference list and vice versa, quotes accurate and integrated, formatting, figures and tables labelled and referred to.
+
+**Then ask what's missing.** The most damaging problems are often absences, and absences don't show up when you read line by line. Put yourself in the shoes of a specialist marker in this exact discipline and level and ask: what would I expect to see here that isn't on the page? Examples: the core theories and debates of the field (a sociology essay on digital participation with no connective action or mobilisation vs. normalisation debate); discipline-specific requirements (ethics approval, data protection and governance, reporting standards such as CONSORT or APA statistics, legal authorities); recent developments; a definition of the key term in the question; the obvious counter-case. List the important gaps in the review. Each should come with where it would go and what it would add.
 
 For **theses, dissertations, long reports and research papers**, also read `references/long-form-review.md` — it covers research questions, methodology, literature reviews, results/discussion alignment, and how to keep track of consistency across chapters.
 
@@ -106,10 +108,15 @@ Locate by section and paragraph number (¶), page, or a short quote — whatever
 
 **Preserving voice.** Fix what is wrong; don't rewrite what is merely different from how you'd say it. Keep their vocabulary, rhythm and choices unless they cause a real problem. Your corrections must not introduce generic AI prose — no "delve", "tapestry", "it is important to note", "in today's fast-paced world", needless em-dashes or tidy triplets. When you rewrite a sentence for clarity, make it sound like the best version of *them*.
 
-**The corrected version.**
-- For texts under ~1,500 words, provide a full **corrected copy** after the report, with changes marked (use **bold** for insertions and ~~strikethrough~~ for deletions, or a clean copy followed by the marked-up list — whichever is more readable). Correct mechanics and clarity; do *not* silently fix higher-order problems (argument, missing evidence) — flag those instead, because they're the writer's work to do.
-- For longer texts, correct the mechanics throughout the line-level list, and offer a full corrected copy (or tracked-changes `.docx` if the docx skill is available and the user supplied a Word file) as a follow-up rather than dumping it all at once.
-- If the user asked only for proofreading, skip the grade and higher-order critique (mention any glaring problem in one line) and deliver the corrected text plus the list of changes.
+**The corrected version — choose the right kind.** Decide which of these the writer actually needs:
+
+- **Corrected copy** (the text is basically sound; the problems are mechanics and clarity). For texts under ~1,500 words, give a **clean corrected copy** with changed words in **bold**, so it reads as a usable text *and* shows what changed. Don't repeat the reasoning — that's already in the line-by-line list. Do *not* silently fix higher-order problems (argument, missing evidence); leave a short `[bracketed flag]` where they are, because they're the writer's work to do.
+- **Revised draft** (the user asked you to "fix it", "rewrite it" or "make it better", *and* the real problems are structural — a personal statement that tells instead of shows, an essay in the wrong order, a cover letter that doesn't fit the job). A mechanics-only corrected copy is useless here. Instead, produce a restructured draft built **only from the writer's own material**: reorder it, cut what should go, tighten sentences, and wherever new content is needed, insert a specific bracketed prompt such as `[One sentence: what did the patient say or do that showed her fear? Only what really happened]`. The draft should read as a genuine model of what the finished piece could look like, with the blanks making clear what only the writer can supply.
+- **Nothing** — for long texts (>1,500 words), keep corrections in the line-level list and offer a full corrected copy (or a tracked-changes `.docx` if the docx skill is available and the user supplied a Word file) as a follow-up rather than dumping it all at once.
+
+If the user asked only for proofreading, skip the grade and higher-order critique (mention any glaring problem in one line) and deliver the corrected text plus the list of changes.
+
+**Never put words, facts or experiences in the writer's mouth.** Every sentence in a corrected copy or revised draft that sits outside brackets must trace back to something the writer actually wrote. This applies to small details too: don't add a job title ("a registrar"), a feeling, a belief, a number or an event the writer didn't mention. For applications and personal writing especially, an invented detail can surface in an interview or look like dishonesty. When in doubt, bracket it.
 
 ## Step 4 — Write the report
 
@@ -143,6 +150,9 @@ Use this structure. Scale depth to length and stakes: a 400-word personal statem
 [What the problem is, where it shows (quote/¶), why it costs marks, and how to fix it — ideally with an example of the fix.]
 ### 2. …
 
+## What's missing
+[Important absences a specialist marker would expect: theory, debates, requirements, definitions, counter-cases. Say where each belongs.]
+
 ## Structure (reverse outline)
 [One line per paragraph/section, with a note where the logic breaks. Include when structure is an issue or the text is long; otherwise summarise in a line.]
 
@@ -155,11 +165,20 @@ Use this structure. Scale depth to length and stakes: a 400-word personal statem
 ## Referencing check
 [Missing/unmatched citations, style inconsistencies, "verify" flags, quote accuracy.]
 
-## Corrected version
-[If applicable — see Step 3.]
+## Corrected version / Revised draft
+[Whichever fits — see Step 3.]
+
+## Questions an examiner would ask
+[Theses, dissertations and research papers: 3–6 pointed questions to prepare for.]
 ```
 
 Omit sections that have nothing in them rather than padding them.
+
+**Keep it proportionate — a review nobody finishes reading teaches nothing.** Rough budget for the report (excluding any corrected copy or revised draft): about **1–2× the length of the text for short pieces** (under ~1,000 words), tapering to a small fraction for long ones — a 10,000-word thesis chapter needs a thorough review, not a 10,000-word one. To stay within budget:
+- **Say each thing once.** A point made in the scorecard shouldn't be re-explained in full under Key issues and again in line corrections. The scorecard gets a one-line justification; Key issues get the explanation; line corrections get the fix and a few words of why; Patterns handle repeats.
+- **Line corrections are for the errors that matter.** For a text riddled with small errors, list the representative ones and let Patterns plus the corrected copy handle the rest.
+- **Use the reverse outline where structure is actually the problem**; otherwise one line on structure is enough.
+- **Prefer the single most useful example** over three similar ones.
 
 **Tone.** Direct, specific and respectful — the voice of someone who takes the work seriously enough to be honest about it. Every criticism points at something in the text and comes with a fix. Praise is specific and earned; don't open with filler compliments or sandwich every criticism. If the work is excellent, say so plainly and explain exactly why; if it is failing, say that plainly too, then show the way up.
 
@@ -173,8 +192,10 @@ Before you finish, reread the review against these questions:
 - Did I address the argument and evidence before the commas?
 - Are any of my "corrections" actually wrong, or just my preference presented as an error?
 - Did I invent any fact, source or quote? (Remove it.)
-- Did I preserve the writer's voice in rewritten sentences?
+- Did I preserve the writer's voice in rewritten sentences? Does every unbracketed sentence in my corrected copy or revised draft trace back to something the writer actually wrote?
 - If the user gave a rubric or brief, did I judge against *it*?
+- **Are my own facts right?** Check that every ¶ or page reference points to the right place, that the word counts and other numbers I quote match the text (or the `text_stats.py` output), and that the band label matches the mark on the scale I used. Also check I haven't read things into the text that it doesn't say, such as assuming what non-respondents did.
+- Is the review proportionate, and have I said each thing only once?
 
 ## Special situations
 
