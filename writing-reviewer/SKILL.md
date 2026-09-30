@@ -84,6 +84,8 @@ Read `references/rubrics.md` for the rubric that fits the genre and `references/
 - Judge the text on the page, not the effort you imagine behind it, and not the writer's stated hopes.
 - If the user says "be brutal" or "be honest", that changes your *tone* (more direct, fewer softeners), not your *mark*. The mark is the mark.
 
+**Word limits.** Many institutions penalise going over the limit, and often going well under it (a ±10% rule is common). Tell the writer to check their handbook rather than guessing what the rule is. If the piece is substantially under length, include a short **word-budget plan** in "What would move this up a band": the sections it needs and roughly how many words each should get to reach the limit.
+
 Always include **"What would move this up a band"** — the two or three specific changes that would have the biggest effect on the grade. This is often the most useful part of the whole review.
 
 ## Step 3 — Correct it
@@ -110,7 +112,7 @@ Locate by section and paragraph number (¶), page, or a short quote — whatever
 
 **The corrected version — choose the right kind.** Decide which of these the writer actually needs:
 
-- **Corrected copy** (the text is basically sound; the problems are mechanics and clarity). For texts under ~1,500 words, give a **clean corrected copy** with changed words in **bold**, so it reads as a usable text *and* shows what changed. Don't repeat the reasoning — that's already in the line-by-line list. Do *not* silently fix higher-order problems (argument, missing evidence); leave a short `[bracketed flag]` where they are, because they're the writer's work to do.
+- **Corrected copy** (the text is basically sound; the problems are mechanics and clarity). For texts under ~1,500 words, give a **clean corrected copy** with changed words in **bold**, so it reads as a usable text *and* shows what changed. Don't repeat the reasoning — that's already in the line-by-line list. Do *not* silently fix higher-order problems (argument, missing evidence); leave a short `[bracketed flag]` where they are, because they're the writer's work to do. If a sentence should simply go (an unsupported statistic, an off-question aside), show it ~~struck through~~ with the reason in brackets rather than leaving it standing.
 - **Revised draft** (the user asked you to "fix it", "rewrite it" or "make it better", *and* the real problems are structural — a personal statement that tells instead of shows, an essay in the wrong order, a cover letter that doesn't fit the job). A mechanics-only corrected copy is useless here. Instead, produce a restructured draft built **only from the writer's own material**: reorder it, cut what should go, tighten sentences, and wherever new content is needed, insert a specific bracketed prompt such as `[One sentence: what did the patient say or do that showed her fear? Only what really happened]`. The draft should read as a genuine model of what the finished piece could look like, with the blanks making clear what only the writer can supply.
 - **Nothing** — for long texts (>1,500 words), keep corrections in the line-level list and offer a full corrected copy (or a tracked-changes `.docx` if the docx skill is available and the user supplied a Word file) as a follow-up rather than dumping it all at once.
 
@@ -195,6 +197,7 @@ Before you finish, reread the review against these questions:
 - Did I preserve the writer's voice in rewritten sentences? Does every unbracketed sentence in my corrected copy or revised draft trace back to something the writer actually wrote?
 - If the user gave a rubric or brief, did I judge against *it*?
 - **Are my own facts right?** Check that every ¶ or page reference points to the right place, that the word counts and other numbers I quote match the text (or the `text_stats.py` output), and that the band label matches the mark on the scale I used. Also check I haven't read things into the text that it doesn't say, such as assuming what non-respondents did.
+- Do the summary sections agree with the detail? For example, don't write "no spelling errors" under Strengths if the line-by-line list fixes some. Where I state a proportion, sentence length or count, did I measure it rather than estimate it?
 - Is the review proportionate, and have I said each thing only once?
 
 ## Special situations
