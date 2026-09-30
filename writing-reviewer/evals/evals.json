@@ -1,0 +1,23 @@
+{
+  "skill_name": "writing-reviewer",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "can you mark my essay pls, its for my 2nd year sociology module at uni (UK), word limit is 1500. be honest i want to know what grade i'd actually get. file: evals/files/sociology_essay.md",
+      "expected_output": "Calibrated UK mark (likely a low 2:2/Third band), catches the factual errors, overclaims, suspect citation, under-length, descriptive rather than analytical argument, and corrects the grammar.",
+      "files": ["evals/files/sociology_essay.md"]
+    },
+    {
+      "id": 2,
+      "prompt": "This is the methodology chapter of my MSc nursing dissertation. Could you review it thoroughly and tell me what mark it's heading for? I'm submitting next month. File: evals/files/dissertation_methods.md",
+      "expected_output": "Identifies the fundamental mismatch between an experiential (qualitative) research question and a quantitative survey design, causal overclaim from a correlation, p = 0.000 reporting, ethics/data storage problems, generalisation from a tiny convenience sample, misreported response rate; gives a UK master's mark and examiner questions.",
+      "files": ["evals/files/dissertation_methods.md"]
+    },
+    {
+      "id": 3,
+      "prompt": "Here's my personal statement for medicine applications (UCAS). Tear it apart and fix it. File: evals/files/personal_statement.md",
+      "expected_output": "Verdict on readiness, flags cliché opening, list of activities without reflection, telling not showing, generic ending; gives concrete revisions while keeping the applicant's voice; does not fabricate experiences.",
+      "files": ["evals/files/personal_statement.md"]
+    }
+  ]
+}
